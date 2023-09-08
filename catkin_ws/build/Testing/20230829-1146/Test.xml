@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230829-1146-Experimental"
+	Name="ggpc"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/g++-7"
+	CompilerVersion="7.5.0"
+	OSName="Linux"
+	Hostname="ggpc"
+	OSRelease="5.4.0-150-generic"
+	OSVersion="#167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="113"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="16011"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2137.77"
+	>
+	<Testing>
+		<StartDateTime>Aug 29 19:46 CST</StartDateTime>
+		<StartTestTime>1693309610</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 29 19:46 CST</EndDateTime>
+		<EndTestTime>1693309610</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/ylh/carla-ros-bridge/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/ylh/carla-ros-bridge/catkin_ws/src/carla_pnc/lattice_planner/include/**",
+                "/home/ylh/carla-ros-bridge/catkin_ws/src/carla_pnc_cpp/controller/include/**",
+                "/home/ylh/carla-ros-bridge/catkin_ws/src/carla_pnc_cpp/planning/include/**",
+                "/home/ylh/carla-ros-bridge/catkin_ws/src/ros-bridge/pcl_recorder/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

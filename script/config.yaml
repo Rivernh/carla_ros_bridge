@@ -1,0 +1,51 @@
+debug_mode: False
+
+dt: 0.1
+
+vehicle:
+    L: 2.6
+    umin_v: -2
+    umax_v: 2
+    umin_d: -0.6 #-0.3
+    umax_d: 0.6 #0.3
+    delta_umin_v: -0.5
+    delta_umax_v: 0.2
+    delta_umin_d: -0.3
+    delta_umax_d: 0.3
+    min_v: 0
+    max_v: 22.22 # 108 km/h
+    min_delta: -0.5236 # -30 degree
+    max_delta: 0.5236 # -30 degree
+    width: 1.62
+    length: 3.564
+
+lattice_planner:
+    # Parameter
+    max_speed: 8.33 # 80 / 3.6  # maximum speed [m/s]
+    max_acc: 20  # maximum acceleration [m/ss]
+    max_curvature: 1.0  # maximum curvature [1/m]
+    MIN_ROAD_WIDTH: -1.8
+    MAX_ROAD_WIDTH: 1.8  # maximum road width [m]
+    d_road_w: 1.0 #1.0  # road width sampling length [m]
+    dt: 0.2  # time tick [s]
+    max_t: 3.0  # max prediction time [m]
+    min_t: 2.0  # min prediction time [m]
+    n_s_sample: 1  # sampling number of target speed
+    d_speed: 1 # 5 / 3.6  # target speed sampling length [m/s]
+    # TARGET_SPEED: 16.67 #60 / 3.6  # target speed [m/s]
+    ROBOT_RADIUS: 3.0  # robot radius [m]
+
+    # Parameters for constant distance and constant time law.
+    D0: 2 # static distance required between cars at speed 0
+    tau: 1 # time distance between cars
+
+    # cost weights
+    K_J: 0.1
+    K_T: 0.1
+    K_D: 1.0
+    K_LAT: 1.0
+    K_LON: 1.0
+
+    #car
+    L: 4.0
+    W: 2.0

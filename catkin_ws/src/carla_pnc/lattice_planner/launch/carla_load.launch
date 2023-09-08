@@ -1,0 +1,13 @@
+<!-- -->
+<launch>
+  <!-- launch the rwfb controller to publish the vehicle control from the planned trajectory -->
+
+  <!-- controller parameter -->
+  <arg name='show' default='False'/> <!-- whether or not to show the carla screen -->
+
+  <!-- The carla load -->
+  <node pkg="lattice_planner" type="load_carla.py" name="load_carla" output="screen">
+    <param name="show" value="$(arg show)" />
+  </node>
+
+</launch>

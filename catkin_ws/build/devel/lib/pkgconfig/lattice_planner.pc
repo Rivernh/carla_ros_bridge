@@ -1,0 +1,8 @@
+prefix=/home/ylh/carla-ros-bridge/catkin_ws/build/devel
+
+Name: lattice_planner
+Description: Description of lattice_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

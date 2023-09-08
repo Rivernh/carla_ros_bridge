@@ -1,0 +1,8 @@
+<!-- -->
+<launch>
+
+  <!-- The controller load -->
+  <node pkg="lattice_planner" type="lattice_planner.py" name="lattice_planner" output="screen">
+  </node>
+
+</launch>
